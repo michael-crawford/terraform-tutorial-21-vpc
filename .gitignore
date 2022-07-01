@@ -28,9 +28,6 @@ override.tf.json
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
 
-# Exclude provider only needed for local testing
-provider.tf
-
 # Directories to exclude during code development
 **/save/*
 **/new/*
